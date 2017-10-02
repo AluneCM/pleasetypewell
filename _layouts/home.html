@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="header-title">Please</div>
+  <div class="about-button">?</div>
+  {% include about.html %}
+  <div class="post-wrapper">
+    {% for post in site.posts %}
+    <div class="post"><span>Please</span> {{ post.content }}</div><br/>
+    {% endfor %}
+  </div>
+</div>

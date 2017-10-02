@@ -1,0 +1,21 @@
+@import "ptw/fonts";
+
+$font-family: "ValueSerif-Bold", times, serif;
+$font-size: 48px;
+$mobile-font-size: 26px;
+
+$dark-color: black;
+$light-color: white;
+$brand-color: blue;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Import partials.
+@import
+  "ptw/layout",
+  "ptw/syntax-highlighting"
+;
