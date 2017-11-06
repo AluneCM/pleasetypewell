@@ -1,6 +1,6 @@
 ---
 layout: post
 title:  Parenthesis
-date:   2017-09-15 16:00:33 +0200
+position: 1
 ---
 don't use spaces after an opening parenthesis and before a closing parenthesis.

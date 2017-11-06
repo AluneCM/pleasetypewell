@@ -1,6 +1,6 @@
 ---
 layout: post
 title:  Ellipsis
-date:   2017-09-19 16:00:33 +0200
+position: 3
 ---
 use the ellipsis character, not a set of three periods. Also use it when it is needed, not at the end of every sentence.

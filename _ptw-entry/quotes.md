@@ -1,6 +1,6 @@
 ---
 layout: post
 title:  quotes
-date:   2017-09-16 16:00:33 +0200
+position: 0
 ---
 use the apropriate quotation marks between french and english depending on the language you are using.

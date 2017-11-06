@@ -1,10 +1,13 @@
 title: Please Type Well
 email: pleasetypewell@alune.fr
-description:
+description: A site about typographic guidelines
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username:
+url: "http://pleasetypewell.alune.fr" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: AluneCM
+
+collections:
+  ptw-entry:
+    output: true
 
 # Build settings
 markdown: kramdown

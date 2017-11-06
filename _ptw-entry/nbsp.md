@@ -1,6 +1,6 @@
 ---
 layout: post
 title:  NBSP
-date:   2017-09-18 16:00:33 +0200
+position: 2
 ---
 use unbreakable spaces between the different parts of a name.

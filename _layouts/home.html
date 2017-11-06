@@ -7,8 +7,9 @@ layout: default
   <div class="about-button">?</div>
   {% include about.html %}
   <div class="post-wrapper">
-    {% for post in site.posts %}
-    <div class="post"><span>Please</span> {{ post.content }}</div><br/>
+    {% assign entrySort = site.ptw-entry | sort: 'position' %}
+    {% for entry in entrySort %}
+    <div class="post"><span>Please</span> {{ entry.content }}</div><br/>
     {% endfor %}
   </div>
 </div>
